@@ -118,16 +118,16 @@ Next, I successfully configure data collection rulesets to retrieve logs from bo
 ## Step 20: Customizing Workbooks
 I delete existing default workbooks to replace with customized ones focused on:
 
-**Windows Security Events**
+### **Windows Security Events**
 ![Screenshot 2024-05-22 081712](https://github.com/sharpleynate/azure-soc-honeynet/assets/114451775/a5651711-893f-4035-9495-48978509bc88)
 
-**Malicious Network Flows**
+### **Malicious Network Flows**
 ![Screenshot 2024-05-22 081355](https://github.com/sharpleynate/azure-soc-honeynet/assets/114451775/5fbe984b-26e7-4141-aabe-13e997ed66ed)
 
-**SQL Server Authentication Attempts**
+### **SQL Server Authentication Attempts**
 ![Screenshot 2024-05-22 081630](https://github.com/sharpleynate/azure-soc-honeynet/assets/114451775/5a54f1f3-0113-426f-9bd1-9bd73623ff23)
 
-**Linux SSH Authentication Failures**
+### **Linux SSH Authentication Failures**
 ![Screenshot 2024-05-22 082010](https://github.com/sharpleynate/azure-soc-honeynet/assets/114451775/8f9841c8-c290-481f-9f5a-2e55f44bfbb8)
 
 These workbooks visualize relevant security events, enriched with geographic information, to aid in threat detection and response.
