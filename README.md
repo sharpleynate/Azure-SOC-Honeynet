@@ -1,4 +1,4 @@
-## BUILDING A LIVE SOC + HONEYNEY IN AZURE
+## BUILDING A LIVE SOC + HONEYNET IN AZURE
 This project demonstrates setting up and configuring a honeynet in Microsoft Azure. It includes creating virtual machines, configuring security settings, deploying a SQL database, and integrating Microsoft Sentinel for security monitoring and incident response.
 
 ![q](https://github.com/sharpleynate/azure-soc-honeynet/assets/114451775/ada030fb-ea82-4bb6-9733-5923d18435e5)
