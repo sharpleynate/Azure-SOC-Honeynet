@@ -147,13 +147,7 @@ Entering the Analytics responses section, I engage in incident response activiti
 
 ![Screenshot 2024-05-22 083508](https://github.com/sharpleynate/azure-soc-honeynet/assets/114451775/9cbbf8cb-cb70-47d9-9def-21b60580fe14)
 
-## Step 24: Documentation and Conclusion
-Returning to Sentinel > Incidents, I craft a ticket response documenting the implemented changes. The reason for closing the incident is marked as "True Positive - Suspicious activity; Hardened NSG." This indicates that the observed activity was indeed suspicious, but the NSG hardening measures have effectively mitigated the associated risks.
-
-Finally, I conclude by reflecting on the importance of continuous monitoring and proactive security measures in a cloud environment, showcasing the effectiveness of the applied security controls in mitigating risks and strengthening the overall security posture.
-
-### **Metrics Before and After Hardening**
-
+## Step 24: Metrics Before and After Hardening
 ### **Before Hardening**
 
 | Start Time: 2024-05-21
@@ -187,3 +181,6 @@ Finally, I conclude by reflecting on the importance of continuous monitoring and
 | SecurityAlert | 4 | 0 | -100% |
 | SecurityIncident | 8 | 0 | -100% |
 | AzureNetworkAnalytics_CL | 249 | 0 | -100% |
+
+## ## Step 25: Conclusion 
+This project demonstrates the setup of a live SOC and honeynet in Azure, involving virtual machine deployment, security configuration, and incident response integration. Through deliberate security testing and monitoring, we showcased the effectiveness of implemented measures, emphasizing the importance of proactive security practices in cloud environments.
