@@ -182,5 +182,5 @@ Entering the Analytics responses section, I engage in incident response activiti
 | SecurityIncident | 8 | 0 | -100% |
 | AzureNetworkAnalytics_CL | 249 | 0 | -100% |
 
-## ## Step 25: Conclusion 
+## Step 25: Conclusion 
 This project demonstrates the setup of a live SOC and honeynet in Azure, involving virtual machine deployment, security configuration, and incident response integration. Through deliberate security testing and monitoring, we showcased the effectiveness of implemented measures, emphasizing the importance of proactive security practices in cloud environments.
