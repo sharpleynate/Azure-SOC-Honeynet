@@ -187,14 +187,3 @@ Finally, I conclude by reflecting on the importance of continuous monitoring and
 | SecurityAlert | 4 | 0 | -100% |
 | SecurityIncident | 8 | 0 | -100% |
 | AzureNetworkAnalytics_CL | 249 | 0 | -100% |
-
-**KQL Queries**
-
-| Metric | Query |
-| --- | --- |
-| Start/Stop Time | range x from 1 to 1 step 1| project StartTime = ago(24h), StopTime = now() |
-| Security Events (Windows VMs) | SecurityEvent| where TimeGenerated>= ago(24h)| count |
-| Syslog (Linux VMs) | Syslog| where TimeGenerated >= ago(24h)| count |
-| SecurityAlert (Microsoft Defender for Cloud) | Security Alert| where DisplayName !startswith "CUSTOM" and DisplayName !startswith "TEST"| where TimeGenerated >= ago(24h)| count |
-| Security Incident (Sentinel Incidents) | SecurityIncident| where TimeGenerated >= ago(24h)| count |
-| NSG Inbound Malicious Flows Allowed | AzureNetworkAnalytics_CL| where FlowType_s == "MaliciousFlow" and AllowedInFlows_d > 0| where TimeGenerated >= ago(24h)| count |
