@@ -1,4 +1,5 @@
-Building a Live SOC + Honeynet in Azure
+#Building a Live SOC + Honeynet in Azure#
+
 This project demonstrates the creation of a Live Security Operations Center (SOC) and Honeynet in Azure. It involves setting up Windows and Linux virtual machines, configuring them to be vulnerable, and then hardening the environment to improve security. The steps include deploying virtual machines, setting up a SQL database, configuring network security, and monitoring security events using Microsoft Sentinel.
 
 Video Guide
